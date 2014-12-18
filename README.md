@@ -1,3 +1,3 @@
 LANDING PAGE — BLUE THING
 
-giottox.github.io/blue-thing
+https://giottox.github.io/blue-thing
