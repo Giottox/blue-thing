@@ -1,0 +1,253 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Header */
+
+.bg-image {
+  background: url(../images/bg.jpg) no-repeat center center;
+  background-size: cover;
+  max-width: 100%;
+  padding: 14.5em 0;
+  color: #fff;
+  cursor: default;
+}
+
+@font-face {
+  font-family: Lane; /* Гарнитура шрифта */
+  src: url(../fonts/Lane.ttf); /* Для остальных браузеров */
+}
+
+.bg-image h1 {
+  font-family: "Lane" sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 60px;
+  letter-spacing: 5px;
+}
+
+.bg-image p {
+  font-family: "Lane" sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+}
+
+.bg-image span {
+  color: #FDF210;
+}
+/* </> */
+/* 1 section */
+.icons-info {
+  cursor: default;
+  background-color: #001C28;
+}
+
+.column-one i{
+  font-size: 50px;
+  color:#FDF210;
+}
+
+.column-margin {
+  margin: 
+}
+
+.column-one {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.h3-text h3 {
+  color:#FDF210;
+  font-family: "Lane" sans-serif;
+  font-weight: 800;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+.p-text{
+  color: #FFF;
+  font-family: "Lane" sans-serif;
+  font-weight: 400;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.bottom {
+  margin-bottom: 70px;
+}
+
+/* </> */
+/* 2 Section Slider */
+
+.carousel {
+  background-color: #999C8B;
+}
+
+.carousels {
+  padding: 10em 0;
+}
+
+/* </> */
+/* 2 section */
+
+.makers {
+  cursor: default;
+  background-color: #4AA5FF;
+  background-size: cover;
+  color: #fff;
+}
+
+.makers h1 {
+  font-family: "Lane" sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-top: 50px;
+  letter-spacing: 5px;
+}
+
+.makers p {
+  font-family: "Lane" sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  width: 50%;
+  margin: 26px auto 20px;
+  letter-spacing: 1.5px;
+}
+
+.makers span {
+  color: #FDF210;
+}
+
+.makers button {
+  padding: 15px 35px;
+  background-color: #4AA5FF;
+  font-family: "Lane" sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;  
+  font-size: 20px;
+  color: #FDF210;
+  margin: 25px auto 40px;
+  border: 1px solid #FDF210;
+  transition: all .3s;
+}
+
+.makers button:hover {
+  background-color: #FDF210;
+  text-transform: uppercase;  
+  color: #4AA5FF;
+  border: 1px solid #4AA5FF;
+  transition: all .3s;
+}
+/* </> */
+
+/* 3 section */
+
+.video {
+  cursor: default;
+  padding: 6em 0;
+  background-color: #001C28;
+  color: #fff;
+}
+
+.video h1 {
+  font-family: "Lane" sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 35px;
+  letter-spacing: 5px;
+}
+
+.video p {
+  font-family: "Lane" sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  width: 65%;
+  letter-spacing: 1.5px;
+  line-height: 22px;
+}
+
+.video span {
+  color: #FDF210;
+}
+
+.apple-hd {
+  margin-top: 29px;
+  float: left;
+  text-align: left;
+}
+
+@media (max-width: 1200px) {
+  .apple-hd {
+    width: 100%     !important;
+    height: 225px   !important;
+  }
+}
+
+/* </> */
+/* Footer */
+
+.footer {
+  background: #001C28;
+  border-top: 2px solid #FDF210;
+  text-align: center;
+  padding: 3em 0 4em;
+  cursor: default;
+}
+
+.footer h2 {
+  font-family: "Lane" sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #FDF210;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.footer ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 35px;
+  margin: 38px 20px;
+}
+
+.footer a {
+  color: #fff;
+  transition: all .2s;
+}
+
+.footer a:hover {
+  color: #FDF210;
+}
+
+.footer p {
+  color: #fff;
+}
+
+.footer span{
+  color: #fff;
+  transition: all .2s;
+  letter-spacing: 2px;
+}
+
+.footer span:hover {
+  color: #FDF210;
+  cursor: pointer;
+}
+
+/* </> */
